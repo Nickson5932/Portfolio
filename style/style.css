@@ -24,15 +24,15 @@ body {
     margin: 0;
     padding: 8px 10% !important;
     overflow: hidden;
-    align-items: end;   
+    align-items: end;
 }
 
 .nav li:first-child {
     margin-right: auto;
-  }
+}
 
-.nav .logo{
-    margin-left:auto;
+.nav .logo {
+    margin-left: auto;
 }
 
 .nav li a {
@@ -40,14 +40,14 @@ body {
     color: white;
     text-align: center;
     padding: 16px 20px;
-    margin:0 20px;
+    margin: 0 20px;
     text-decoration: none;
-    border-bottom:0px;
+    border-bottom: 0px;
     font-size: 18px;
 }
 
 .nav li a:hover {
-    color:#01ABF4 ;
+    color: #01ABF4;
 }
 
 .about-content {
@@ -270,6 +270,8 @@ a:hover {
     -moz-box-shadow: -2px 0 3px rgba(0, 0, 0, 0.3);
     box-shadow: -2px 0 3px rgba(0, 0, 0, 0.3);
 }
+
+
 
 
 .portfolio:nth-child(1) {
@@ -607,7 +609,7 @@ a:hover {
 .SkillBar {
     width: 90%;
     height: 50px;
-    border-radius:25px;
+    border-radius: 25px;
     position: relative;
     background: rgba(17, 17, 17, 0.3);
     margin: 20px auto;
@@ -619,7 +621,7 @@ a:hover {
     -webkit-animation: Animate-HTML 4s;
     -moz-animation: Animate-HTML 4s;
     -o-animation: Animate-HTML 4s;
-    border-radius:25px;
+    border-radius: 25px;
     height: 50px;
     position: absolute;
     background-color: #01ABF4;
@@ -839,6 +841,7 @@ a:hover {
         width: 60%;
     }
 }
+
 #Skill-Animation {
     animation: Animate-Animation 4s;
     -webkit-animation: Animate-Animation 4s;
@@ -860,6 +863,7 @@ a:hover {
         width: 30%;
     }
 }
+
 #Skill-InDesign {
     animation: Animate-InDesign 4s;
     -webkit-animation: Animate-InDesign 4s;
@@ -882,65 +886,84 @@ a:hover {
     }
 }
 
-.left-divider{
+.left-divider {
     border-left: 1px solid #01ABF4;
 }
 
-.submit-button{
-    background-color:#01ABF4;
-    color:white;
-    padding:10px 25px;
+.submit-button {
+    background-color: #01ABF4;
+    color: white;
+    padding: 10px 25px;
     border-radius: 10px;
     border: 2px solid white;
-    margin:3%;
+    margin: 3%;
 }
 
-.submit-button:hover{
-    background-color:whitesmoke;
+.submit-button:hover {
+    background-color: whitesmoke;
     color: #01ABF4;
 }
 
-.form-group{
-    margin-top:10px;
+.form-group {
+    margin-top: 10px;
 }
 
-.form-box{
+.form-box {
     text-align: left;
 }
 
-.form-row{
-    width:60% !important;
-    border:1px solid #01ABF4;
-    padding:8% 10%!important;
-    margin:10% auto;
+.form-row {
+    width: 60% !important;
+    border: 1px solid #01ABF4;
+    padding: 8% 10% !important;
+    margin: 10% auto;
     border-radius: 5px;
 }
 
-.form-control{
-    margin:6px 0;
+.form-control {
+    margin: 6px 0;
 }
 
-#maincontent .portfolio a{
+#maincontent .portfolio a {
     text-decoration: none;
-    color:white;
+    color: white;
 }
 
-#maincontent .portfolio a:hover{
+#maincontent .portfolio a:hover {
     text-decoration: none;
-    color:#01ABF4;
+    color: #01ABF4;
     background-color: #01ABF4;
 }
 
 .social-media-icons a {
-    border:none;
+    border: none;
 }
 
-.portfolio a{
-    color:white;
+.portfolio a {
+    color: white;
 }
 
-.portfolio{
-    padding-top:10%;
+.portfolio {
+    padding-top: 10%;
+}
+
+.text-align-right{
+    text-align: right;
+}
+
+.live-btn{
+    background-color: #01ABF4;
+    padding:10px 20px;
+    border-radius: 10px;
+    font-size:20px;
+    color:white !important;
+    text-decoration: none;
+    transition:1s;
+}
+
+.live-btn:hover{
+    background-color:white;
+    color:black !important;
 }
 
 /* Style all font awesome icons */
@@ -951,41 +974,42 @@ a:hover {
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
-  }
-  
-  /* Add a hover effect if you want */
-  .fa:hover {
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
     opacity: 0.7;
-  }
-  
-  /* Set a specific color for each brand */
-  
-  /* Facebook */
-  .fa-facebook {
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
     background: #3B5998;
     color: white;
-  }
-  
-  /* Twitter */
-  .fa-twitter {
+}
+
+/* Twitter */
+.fa-twitter {
     background: #55ACEE;
     color: white;
-  }
-  .fa-google {
+}
+
+.fa-google {
     background: #dd4b39;
     color: white;
-  }
-  
+}
+
 .fa-instagram {
     background: #125688;
     color: white;
-  }
+}
 
-  .footer a{
-    margin:10px 10px;
+.footer a {
+    margin: 10px 10px;
 
-  }
+}
 
-  .footer{
-    margin-top:150px;
-  }
+.footer {
+    margin-top: 150px;
+}
